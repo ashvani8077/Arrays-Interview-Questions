@@ -9,7 +9,7 @@ public class TrappingRainWaterOptimized {
         int rightMax=0;
         int l=0;
         int r=arr.length-1;
-        while (l<r){
+        while (l<=r){
             if(arr[l]<=arr[r]){
                 if(leftMax>arr[l]){
                     total+=leftMax-arr[l];
